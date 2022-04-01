@@ -1,11 +1,15 @@
 import * as React from "react"
+import "./index.scss";
+import Introduction from "../components/Introduction/Introduction"
+import Navigation from "../components/Navigation/Navigation";
 
 export default function Index() {
-  
-
   return (
     <div className="App">
-      Hej
+      <Introduction />
+      <main className="main">
+        <Navigation />
+      </main>
     </div>
   )
 }
