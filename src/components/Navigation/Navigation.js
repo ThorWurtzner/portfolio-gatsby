@@ -6,9 +6,9 @@ export default function Navigation() {
 
     return (
         <nav className="navigation">
-            <div></div>
-            <div></div>
-            <div></div>
+            <div>My work</div>
+            <div>About me</div>
+            <div>Contact</div>
         </nav>
     )
 }

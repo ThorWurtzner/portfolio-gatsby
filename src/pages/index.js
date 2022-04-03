@@ -8,7 +8,7 @@ export default function Index() {
     <div className="App">
       <Introduction />
       <main className="main">
-        <Navigation />
+        {/* <Navigation /> */}
       </main>
     </div>
   )
