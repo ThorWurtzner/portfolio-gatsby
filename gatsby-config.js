@@ -11,5 +11,21 @@ module.exports = {
     `gatsby-plugin-image`,
     `gatsby-transformer-sharp`,
     `gatsby-plugin-sharp`,
-  ],
+    {
+      resolve: `gatsby-plugin-google-fonts-v2`,
+      options: {
+        fonts: [
+          {
+            family: "montserrat"
+          },
+          {
+            family: "open Sans"
+          },
+          {
+            family: "indie flower"
+          }
+        ],
+      }
+    }
+  ]
 }

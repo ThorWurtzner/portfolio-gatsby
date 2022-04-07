@@ -536,15 +536,12 @@ export default function Introduction() {
                 />
             </section>
             <section class="headerIntroduction__mainText">
-                <h1 class="mainText--font">I'm Thor.</h1>
-                <h1 class="mainText--font">I design & build beautiful experiences using modern technology.
-                {/* <span class="typewriterEffect"></span> */}
-                </h1>
+                <h1 class="headerIntroduction__mainText--font">I'm Thor.</h1>
+                <h1 class="headerIntroduction__mainText--font">I design & build beautiful experiences using modern technology.</h1>
             </section>
             <section class="headerIntroduction__linkWrapper">
-                <a class="linkWrapper__link" href="#mainContent">
+                <a class="headerIntroduction__linkWrapper__link" href="#main">
                     Learn more about what I do <br/>
-                    {/* <i class="fas fa-chevron-down linkWrapper__icon"></i> */}
                     <div class="mouse"></div>
                 </a>
             </section>

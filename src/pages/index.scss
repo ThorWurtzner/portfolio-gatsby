@@ -1,8 +1,11 @@
-
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+}
+
+html {
+    scroll-behavior: smooth;
 }
 
 img {
@@ -10,6 +13,6 @@ img {
 }
 
 .main {
-    min-height: 100vh;
+    min-height: 150vh;
     background: linear-gradient(to bottom, #000 10%, rgb(6, 44, 75));
 }

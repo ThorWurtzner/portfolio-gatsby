@@ -6,9 +6,11 @@ export default function Navigation() {
 
     return (
         <nav className="navigation">
-            <div>My work</div>
-            <div>About me</div>
-            <div>Contact</div>
+            <div className="navigation__wrapper">
+                <div></div>
+                <div></div>
+                <div></div>
+            </div>
         </nav>
     )
 }
