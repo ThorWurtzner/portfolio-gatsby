@@ -11,7 +11,7 @@ export default function Footer() {
     return (
         <footer className='footer'>
 
-            <StaticImage className="footer__penguin" src="../../images/penguin.png" alt="penguin character" placeholder='blurred' />
+            <StaticImage id="footer__penguin" className="footer__penguin" src="../../images/penguin.png" alt="penguin character" placeholder='blurred' />
 
             <div className='footer__contact'>
                 <p>Wanna collaborate on a project?</p>
