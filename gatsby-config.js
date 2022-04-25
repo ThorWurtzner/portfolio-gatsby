@@ -19,10 +19,13 @@ module.exports = {
             family: "montserrat"
           },
           {
-            family: "open Sans"
+            family: "open sans"
           },
           {
             family: "indie flower"
+          },
+          {
+            family: "maven pro"
           }
         ],
       }
