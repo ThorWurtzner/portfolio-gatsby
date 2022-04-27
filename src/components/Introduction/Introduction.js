@@ -46,7 +46,7 @@ export default function Introduction() {
                },
                "detectRetina": true,
                "duration": 0,
-               "fpsLimit": 120,
+               "fpsLimit": 40,
                "interactivity": {
                  "detectsOn": "window",
                  "events": {
