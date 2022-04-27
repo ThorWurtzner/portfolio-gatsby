@@ -531,7 +531,7 @@ export default function Introduction() {
             <section class="headerIntroduction__greetings">
                 <Typewriter
                     options={{
-                        strings: ["Hej!", "Hello!"],
+                        strings: ["Hey!", "I'm Thor", "Developer & designer"],
                         autoStart: true,
                         loop: true
                     }}
