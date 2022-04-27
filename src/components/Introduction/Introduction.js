@@ -65,7 +65,7 @@ export default function Introduction() {
                      "mode": "bubble",
                      "parallax": {
                        "enable": true,
-                       "force": 50,
+                       "force": 100,
                        "smooth": 10
                      }
                    },
@@ -340,7 +340,7 @@ export default function Introduction() {
                    },
                    "random": false,
                    "size": false,
-                   "speed": 1,
+                   "speed": 2,
                    "spin": {
                      "acceleration": 0,
                      "enable": false
@@ -543,8 +543,8 @@ export default function Introduction() {
             </section> */}
             <section class="headerIntroduction__linkWrapper">
                 <a class="headerIntroduction__linkWrapper__link" href="#aboutMe">
-                    Learn more about what I do <br/>
                     <div class="mouse"></div>
+                    Learn more about what I do <br/>
                 </a>
             </section>
         </header>
