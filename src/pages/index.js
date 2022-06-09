@@ -7,7 +7,7 @@ import Footer from "../components/Footer/Footer";
 export default function Index() {
   return (
     <div className="App">
-      <Introduction />
+      {/* <Introduction /> */}
       <main className="main" id="main">
         <Navigation />
         <Footer />
