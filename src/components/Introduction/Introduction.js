@@ -3,6 +3,7 @@ import "./Introduction.scss";
 
 import Particles from "react-tsparticles";
 import Typewriter from "typewriter-effect";
+import { StaticImage } from 'gatsby-plugin-image';
 
 export default function Introduction() {
     
@@ -15,6 +16,7 @@ export default function Introduction() {
 
     return (
         <header class="headerIntroduction">
+            <StaticImage className='headerIntroduction__cityBg' src='../../images/city.png' alt="city" placeholder='blurred' />
             <div class="headerIntroduction__overlay"></div>
             <Particles id="tsparticles" init={particlesInit} loaded={particlesLoaded} options={{
                "autoPlay": true,
@@ -44,7 +46,7 @@ export default function Introduction() {
                },
                "detectRetina": true,
                "duration": 0,
-               "fpsLimit": 120,
+               "fpsLimit": 40,
                "interactivity": {
                  "detectsOn": "window",
                  "events": {
@@ -63,7 +65,7 @@ export default function Introduction() {
                      "mode": "bubble",
                      "parallax": {
                        "enable": true,
-                       "force": 50,
+                       "force": 100,
                        "smooth": 10
                      }
                    },
@@ -199,7 +201,7 @@ export default function Introduction() {
                    }
                  },
                  "color": {
-                   "value": "#000",
+                   "value": "#fff",
                    "animation": {
                      "h": {
                        "count": 0,
@@ -338,7 +340,7 @@ export default function Introduction() {
                    },
                    "random": false,
                    "size": false,
-                   "speed": 1,
+                   "speed": 2,
                    "spin": {
                      "acceleration": 0,
                      "enable": false
@@ -529,20 +531,20 @@ export default function Introduction() {
             <section class="headerIntroduction__greetings">
                 <Typewriter
                     options={{
-                        strings: ["Hej!", "Hello!"],
+                        strings: ["Hey!", "I'm Thor", "Developer & designer"],
                         autoStart: true,
                         loop: true
                     }}
                 />
             </section>
-            <section class="headerIntroduction__mainText">
+            {/* <section class="headerIntroduction__mainText">
                 <h1 class="headerIntroduction__mainText--font">I'm Thor.</h1>
                 <h1 class="headerIntroduction__mainText--font">I design & build beautiful experiences using modern technology.</h1>
-            </section>
+            </section> */}
             <section class="headerIntroduction__linkWrapper">
-                <a class="headerIntroduction__linkWrapper__link" href="#main">
-                    Learn more about what I do <br/>
+                <a class="headerIntroduction__linkWrapper__link" href="#aboutMe">
                     <div class="mouse"></div>
+                    Learn more about what I do <br/>
                 </a>
             </section>
         </header>
