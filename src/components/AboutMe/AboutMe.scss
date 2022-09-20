@@ -8,7 +8,7 @@
     margin-bottom: 200px;
 
     &__penguin {
-        width: clamp(400px, 70vw, 900px);
+        width: clamp(350px, 70vw, 900px);
         align-self: flex-start;
         margin-bottom: 60px;
     }
@@ -98,9 +98,27 @@
 
     .aboutMe__content__inner {
         width: 100%;
+        padding: 15px;
+        margin-left: 0;
+        margin-top: 10px;
+    }
+
+    .aboutMe__content {
+        display: flex;
+        width: 100%;
+        padding-right: 10px;
+        padding-left: 10px;
     }
 
     .aboutMe__portraitWrapper {
         width: 100%;
+    }
+
+    .aboutMe__illustrations {
+        display: grid;
+        width: 100%;
+        gap: 10px;
+        margin: 0;
+        padding: 0;
     }
 }
