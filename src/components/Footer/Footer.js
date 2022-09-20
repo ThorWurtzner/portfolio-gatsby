@@ -15,7 +15,8 @@ export default function Footer() {
 
             <div className='footer__contact'>
                 <p>Wanna collaborate on a project?</p>
-                <button onClick={() => setDisplay(true)}>Let's go!</button>
+                {/* <button onClick={() => setDisplay(true)}>Let's go!</button> */}
+                <a href="mailto:thorwurtzner@gmail.com">Lets go!</a>
             </div>
 
             <div className='footer__socialMedia'>
@@ -40,7 +41,7 @@ export default function Footer() {
                 <p>Designed by me, and built with Gatsby</p>
             </div>
 
-            <ContactModal display={display} setDisplay={setDisplay} />
+            {/* <ContactModal display={display} setDisplay={setDisplay} /> */}
         </footer>
     )
 }

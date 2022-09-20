@@ -5,15 +5,17 @@ import Navigation from "../components/Navigation/Navigation";
 import Footer from "../components/Footer/Footer";
 import AboutMe from "../components/AboutMe/AboutMe";
 import Mywork from "../components/MyWork/MyWork";
+import RoadMap from "../components/RoadMap/RoadMap";
 
 export default function Index() {
   return (
     <div className="App">
-      {/* <Introduction /> */}
+      <Introduction />
       <main className="main" id="main">
         {/* <Navigation /> */}
-        <AboutMe />
         <Mywork />
+        <AboutMe />
+        {/* <RoadMap /> */}
         <Footer />
       </main>
     </div>
