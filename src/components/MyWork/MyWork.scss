@@ -36,7 +36,7 @@
 }
 
 .workPenguinMobile {
-    display: none;
+    display: none !important;
 }
 
 @media screen and (max-width: 800px) {
@@ -60,7 +60,7 @@
     }
 
     .workPenguinDesktop {
-        display: none;
+        display: none !important;
     }
 }
 
