@@ -8,6 +8,7 @@
     margin-bottom: 200px;
 
     &__penguin {
+        display: inline-block;
         width: clamp(350px, 70vw, 900px);
         align-self: flex-start;
         margin-bottom: 60px;
@@ -120,5 +121,26 @@
         gap: 10px;
         margin: 0;
         padding: 0;
+    }
+}
+
+.aboutMe__penguinMobile {
+    display: none;
+}
+
+@media screen and (max-width: 800px) {
+    .aboutMe__penguinMobile {
+        display: inline-block;
+        width: 350px;
+        align-self: center;
+        margin-bottom: 30px;
+    }
+
+    .aboutMe__penguin {
+        display: none;
+    }
+
+    .aboutMe {
+        padding-top: 0;
     }
 }
