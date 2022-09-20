@@ -61,7 +61,7 @@ export default function Introduction() {
                      "type": "circle"
                    },
                    "onHover": {
-                     "enable": true,
+                     "enable": false,
                      "mode": "bubble",
                      "parallax": {
                        "enable": true,
@@ -363,7 +363,7 @@ export default function Introduction() {
                      "factor": 1000
                    },
                    "limit": 0,
-                   "value": 400
+                   "value": 70
                  },
                  "opacity": {
                    "random": {
@@ -531,7 +531,7 @@ export default function Introduction() {
             <section class="headerIntroduction__greetings">
                 <Typewriter
                     options={{
-                        strings: ["Hey!", "I'm Thor", "Developer & designer"],
+                        strings: ["Hey!", "I'm Thor"],
                         autoStart: true,
                         loop: true
                     }}

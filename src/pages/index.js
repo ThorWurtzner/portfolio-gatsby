@@ -5,6 +5,7 @@ import Navigation from "../components/Navigation/Navigation";
 import Footer from "../components/Footer/Footer";
 import AboutMe from "../components/AboutMe/AboutMe";
 import Mywork from "../components/MyWork/MyWork";
+import RoadMap from "../components/RoadMap/RoadMap";
 
 export default function Index() {
   return (
@@ -14,6 +15,7 @@ export default function Index() {
         {/* <Navigation /> */}
         <AboutMe />
         <Mywork />
+        {/* <RoadMap /> */}
         <Footer />
       </main>
     </div>
