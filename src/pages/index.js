@@ -13,8 +13,8 @@ export default function Index() {
       <Introduction />
       <main className="main" id="main">
         {/* <Navigation /> */}
-        <AboutMe />
         <Mywork />
+        <AboutMe />
         {/* <RoadMap /> */}
         <Footer />
       </main>
