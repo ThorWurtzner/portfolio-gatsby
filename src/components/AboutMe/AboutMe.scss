@@ -124,20 +124,20 @@
     }
 }
 
-.aboutMe__penguinMobile {
+#aboutMe__penguinMobile {
     display: none;
 }
 
 @media screen and (max-width: 800px) {
-    .aboutMe__penguinMobile {
+    #aboutMe__penguinMobile {
         display: inline-block;
         width: 350px;
         align-self: center;
         margin-bottom: 30px;
     }
 
-    .aboutMe__penguin {
-        display: none !important;
+    #aboutMe__penguinDesktop {
+        display: none;
     }
 
     .aboutMe {

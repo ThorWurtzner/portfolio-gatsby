@@ -8,7 +8,7 @@ export default function AboutMe() {
     return (
         <section className='aboutMe' id="aboutMe">
             <StaticImage className="aboutMe__penguin" src='../../images/aboutme.png' alt='penguin pencil' placeholder='blurred'/>
-            <StaticImage className="aboutMe__penguinMobile" src='../../images/penguinMobile.png' alt='penguin pencil' placeholder='blurred'/>
+            <StaticImage id="aboutMe__penguinMobile" src='../../images/penguinMobile.png' alt='penguin pencil' placeholder='blurred'/>
             <div className='aboutMe__content'>
                 <div className='aboutMe__portraitWrapper'>
                     <StaticImage className='portrait' src='../../images/portrait.png' alt='portrait' placeholder='blurred'/>
