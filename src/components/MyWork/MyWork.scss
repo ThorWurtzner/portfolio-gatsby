@@ -35,11 +35,21 @@
     }
 }
 
+.workPenguinMobile {
+    width: 80%;
+}
+
 .myWork__workPenguinMobile {
     display: none;
-    width: 350px;
-    align-self: center;
+    width: 100%;
+    justify-content: center;
     margin-bottom: 60px;
+}
+
+.myWork__workPenguinDesktop {
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
 }
 
 @media screen and (max-width: 800px) {
@@ -55,7 +65,8 @@
     }
 
     .myWork__workPenguinMobile {
-        display: inline-block;
+        display: flex;
+        margin-bottom: 30px;
     }
 
     .myWork__workPenguinDesktop {
