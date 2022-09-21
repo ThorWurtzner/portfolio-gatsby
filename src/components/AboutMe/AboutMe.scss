@@ -124,19 +124,19 @@
     }
 }
 
-#aboutMe__penguinMobile {
+.aboutMe__penguinMobileWrapper {
     display: none;
+    width: 350px;
+    align-self: center;
+    margin-bottom: 30px;
 }
 
 @media screen and (max-width: 800px) {
-    #aboutMe__penguinMobile {
+    .aboutMe__penguinMobileWrapper {
         display: inline-block;
-        width: 350px;
-        align-self: center;
-        margin-bottom: 30px;
     }
 
-    #aboutMe__penguinDesktop {
+    .aboutMe__penguinDesktopWrapper {
         display: none;
     }
 

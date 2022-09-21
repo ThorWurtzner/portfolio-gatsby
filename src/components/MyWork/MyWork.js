@@ -6,8 +6,12 @@ export default function Mywork() {
     
     return (
         <div className='myWork'>
-            <StaticImage id="workPenguinDesktop" className="mywork__workPenguin" src='../../images/workPenguin.png' alt='penguin work' placeholder='blurred'/>
-            <StaticImage id="workPenguinMobile" className="workPenguinMobile" src='../../images/workPenguinMobile.png' alt='penguin work' placeholder='blurred'/>
+            <div className="myWork__workPenguinDesktop">
+                <StaticImage className="mywork__workPenguin" src='../../images/workPenguin.png' alt='penguin work' placeholder='blurred'/>
+            </div>
+            <div className="myWork__workPenguinMobile">
+                <StaticImage className="workPenguinMobile" src='../../images/workPenguinMobile.png' alt='penguin work' placeholder='blurred'/>
+            </div>
             <div className='myWork__grid'>
                 <section class="workComponent">
                     <div class="workComponent__imgWrapper">
