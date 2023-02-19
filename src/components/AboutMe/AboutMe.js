@@ -22,12 +22,17 @@ export default function AboutMe() {
                             <p>- Web Developer -</p>
                             <p>Roskilde Technical College</p>
                         </div>
+                        <div>
+                            <p className='aboutMe__portraitWrapper__description__studying'>Currently studying:</p>
+                            <p>- AP Degree in Computer Science -</p>
+                            <p>Business Academy Aarhus</p>
+                        </div>
                     </div>
                 </div>
 
                 <div className='aboutMe__content__inner'>
-                    <h2>Hey again!</h2>
-                    <p>I'm a developer living in Aarhus, Denmark. Originally from Copenhagen. <br /> I used to sell suits before all of this developer stuff - in fact I was the top seller of the brand one month! <br/> But yeah, because of that I make sure to never let my customers or partners leave dissatisfied. I really enjoy creating responsive websites with an user experience that achieves your goals as a business. Not only do I make sure your site reaches the widest audience possible, I make it look damn good as well.</p>
+                    <h2>Hey again</h2>
+                    <p>I'm a developer living in Aarhus, Denmark. Originally from Copenhagen. <br /> I used to sell suits before all of this developer stuff. And from there I learned to never let customers or partners leave dissatisfied with a service, and I've brought those values to this field of work as well. <br/> I enjoy designing, and creating responsive websites with an user experience that achieves your goals as a business. Not only do I make sure your site reaches the widest audience possible, I make it look good as well.</p>
                     <h2>Some of my other illustrations and designs:</h2>
                     <div className='aboutMe__illustrations'>
                         <StaticImage className='aboutMe__illustrations__img' src='../../images/illustrations/copenhagen.png' alt='' placeholder='blurred'/>
