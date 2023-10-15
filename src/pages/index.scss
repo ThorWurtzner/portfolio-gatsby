@@ -12,7 +12,16 @@ img {
     max-width: 100%;
 }
 
+
 .main {
     // min-height: 200vh;
     background: linear-gradient(to bottom, #000 1%, rgb(8, 21, 34) 5%, rgb(53, 83, 109), rgb(66, 97, 124));
+    padding-top: 150px;
 }
+
+@media (max-width: 930px) {
+    .main {
+        background: linear-gradient(to bottom, #000 1%, rgb(8, 21, 34) 2%, rgb(53, 83, 109), rgb(66, 97, 124));
+    }
+}
+
