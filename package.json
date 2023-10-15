@@ -5,6 +5,7 @@
   "version": "0.1.0",
   "author": "Thor Würtzner <thorwurtzner@gmail.com>",
   "dependencies": {
+    "@browniebroke/gatsby-image-gallery": "^8.2.0",
     "gatsby": "^4.11.1",
     "gatsby-plugin-gatsby-cloud": "^4.11.1",
     "gatsby-plugin-google-fonts-v2": "^1.0.0",
