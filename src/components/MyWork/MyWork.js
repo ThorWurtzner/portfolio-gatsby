@@ -12,6 +12,35 @@ export default function Mywork() {
             <div className="myWork__workPenguinMobile">
                 <StaticImage className="workPenguinMobile" src='../../images/workPenguinMobile.png' alt='penguin work' placeholder='blurred'/>
             </div>
+
+            {/* Dracanvas */}
+            <div className='myWork__dracanvasShowcase'>
+                <div className='myWork__dracanvasShowcase__innerContent'>
+                    <div className='myWork__dracanvasShowcase__innerContent__title'>
+                        <StaticImage className="myWork__dracanvasShowcase__innerContent__code" src='../../images/dracanvas/dracanvasCode.png' alt='dracanvasCode' objectFit='scale-down' quality={100} placeholder='blurred' />
+                        <div>
+                            <StaticImage className="myWork__dracanvasShowcase__innerContent__title__logo" src='../../images/dracanvas/dracanvasLogo.png' alt='dracanvasLogo' placeholder='blurred' />
+                            <h2>Dracanvas</h2>
+                            <h3>Gør det usynlige synligt</h3>
+                        </div>
+                    </div>
+                    <p className='myWork__dracanvasShowcase__innerContent__text'>
+                    Mit magnum opus. Et projekt der er groet til vilde proportioner, og uden tvivl det jeg er mest stolt af. Kører gennem en proxy for at undgå CORS, bryder flere af akademiets regler - 
+                    og er dybest set blevet den grimmeste kodebase jeg nogensinde har set. Men det er mit, og skabt uden hjælp
+                     - da der intet hjælp kan findes til det monster af en applikation som Dracanvas (Dracula tema, canvas - get it?) 
+                     er blevet til. 
+                     <br/>
+                     <br/>
+                     expedita distinctio. Nam libero tempore, cum soluta nobis est eligendi optio cumque nihil impedit quo minus id quod maxime placeat facere possimus, 
+                     omnis voluptas assumenda est, omnis dolor repellendus. Temporibus autem quibusdam et aut officiis debitis aut rerum necessitatibus saepe eveniet 
+                     ut et voluptates repudiandae sint et molestiae non recusandae.
+                    </p>
+                </div>
+                <div className='myWork__dracanvasShowcase__mobileWrapper'>
+                    <StaticImage className="myWork__dracanvasShowcase__mobileWrapper__picture" src='../../images/dracanvas/dracanvasMobiles.png' alt='dracanvas' objectFit='scale-down' quality={100} placeholder='blurred'/>
+                </div>
+            </div>
+
             <div className='myWork__grid'>
                 <section class="workComponent">
                     <div class="workComponent__imgWrapper">
