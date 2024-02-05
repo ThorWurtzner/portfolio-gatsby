@@ -24,6 +24,9 @@ export default function Mywork() {
                             <h3>Gør det usynlige synligt</h3>
                         </div>
                     </div>
+                    <div className='myWork__dracanvasShowcase__mobileWrapperMobile'>
+                        <StaticImage className="myWork__dracanvasShowcase__mobileWrapper__picture" src='../../images/dracanvas/dracanvasMobiles.png' alt='dracanvas' objectFit='scale-down' quality={100} placeholder='blurred'/>
+                    </div>
                     <p className='myWork__dracanvasShowcase__innerContent__text'>
                     Mit magnum opus. Et projekt der er groet til vilde proportioner, og uden tvivl det jeg er mest stolt af. Kører gennem en proxy for at undgå CORS, bryder flere af akademiets regler - 
                     og er dybest set blevet den grimmeste kodebase jeg nogensinde har set. Men det er mit, og skabt uden hjælp
@@ -39,6 +42,7 @@ export default function Mywork() {
                 <div className='myWork__dracanvasShowcase__mobileWrapper'>
                     <StaticImage className="myWork__dracanvasShowcase__mobileWrapper__picture" src='../../images/dracanvas/dracanvasMobiles.png' alt='dracanvas' objectFit='scale-down' quality={100} placeholder='blurred'/>
                 </div>
+                <StaticImage className="myWork__dracanvasShowcase__codeMobile" src='../../images/dracanvas/dracanvasCode.png' alt='dracanvasCode' objectFit='scale-down' quality={100} placeholder='blurred' />
             </div>
 
             <div className='myWork__grid'>

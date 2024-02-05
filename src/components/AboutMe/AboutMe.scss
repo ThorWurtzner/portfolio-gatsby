@@ -59,6 +59,10 @@
         gap: 10px;
         margin-bottom: 30px;
 
+        a {
+            display: inline-block;
+            width: 100%;
+        }
 
         &__img {
             display: inline-block;
@@ -215,5 +219,11 @@
 
     .aboutMe {
         padding-top: 0;
+    }
+}
+
+@media screen and (max-width: 450px) {
+    .aboutMe__illustrations {
+        grid-template-columns: none;
     }
 }

@@ -146,6 +146,13 @@
         }
     }
 
+    &__mobileWrapperMobile {
+        display: none;
+    }
+
+    .myWork__dracanvasShowcase__codeMobile {
+        display: none;
+    }
 }
 
 @media screen and (max-width: 1600px) {
@@ -179,7 +186,105 @@
 
 @media screen and (max-width: 1300px) {
     .myWork__dracanvasShowcase {
+        justify-content: center;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .myWork__dracanvasShowcase__innerContent__code {
+        width: 400px;
+    }
+
+    .myWork__dracanvasShowcase__mobileWrapper {
+        order: 0;
+    }
+
+    .myWork__dracanvasShowcase__innerContent {
+        order: 1;
+
+        &__title {
+            margin-bottom: -30px;
+            margin-left: -300px;
+        }
+    }
+
+    .myWork__dracanvasShowcase__mobileWrapper {
         display: none;
+    }
+
+    .myWork__dracanvasShowcase__mobileWrapperMobile {
+        display: initial;
+        width: 800px;
+    }
+    
+    .myWork__dracanvasShowcase__innerContent__text {
+        width: 100%;
+        margin-top: 40px;
+    }
+
+    .myWork__dracanvasShowcase__innerContent__title {
+        div {
+            align-items: center;
+        }
+    }
+}
+
+@media screen and (max-width: 1000px) {
+    .myWork__dracanvasShowcase__mobileWrapperMobile {
+        display: initial;
+        width: 600px;
+    }
+
+    .myWork__dracanvasShowcase__innerContent {
+        width: 80%;
+
+        &__title {
+            margin-left: 0;
+        }
+    }
+
+    .myWork__dracanvasShowcase__innerContent__code {
+        display: none !important;
+    }
+
+    .myWork__dracanvasShowcase__codeMobile {
+        display: initial !important;
+        width: 400px;
+        order: 3;
+        margin-top: 30px;
+    }
+}
+
+@media screen and (max-width: 650px) {
+    .myWork__dracanvasShowcase__innerContent {
+        width: 95%;
+    }
+
+    .myWork__dracanvasShowcase__mobileWrapperMobile {
+        width: 500px;
+    }
+}
+
+@media screen and (max-width: 500px) {
+    .myWork__dracanvasShowcase__innerContent {
+        width: 100%;
+
+        &__title {
+            div {
+                h3 {
+                    left: 40px;
+                }
+            }
+        }
+    }
+
+    .myWork__dracanvasShowcase__mobileWrapperMobile {
+        width: 100%;
+        margin-top: 20px;
+    }
+
+    .myWork__dracanvasShowcase__codeMobile {
+        width: 100%;
     }
 }
 
