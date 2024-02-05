@@ -128,4 +128,8 @@
     .footer__socialMedia {
         width: 350px;
     }
+
+    .footer__contact {
+        width: clamp(340px, 80%, 800px);
+    }
 }

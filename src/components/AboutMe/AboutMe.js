@@ -32,7 +32,8 @@ export default function AboutMe() {
 
                 <div className='aboutMe__content__inner'>
                     <h2>Hey again</h2>
-                    <p>I'm a developer living in Aarhus, Denmark. Originally from Copenhagen. <br /> I used to sell suits before all of this developer stuff. And from there I learned to never let customers or partners leave dissatisfied with a service, and I've brought those values to this field of work as well. <br/> I enjoy designing, and creating responsive websites with an user experience that achieves your goals as a business. Not only do I make sure your site reaches the widest audience possible, I make it look good as well.</p>
+                    <p>I am primarily specialized in front-end development with major JavaScript frameworks such as React, Vue, and Angular, as well as CSS preprocessors like Sass. Additionally, I love doing everything visual within UI/UX design, vector graphics, illustrations - and as a landscape painter, I take pride in ensuring all my virtual creations receive the same love as a canvas would. 
+                        <br/><br/>Currently, I am furthering my education in Computer Science at Business Academy Aarhus, where my skills are expanding to include back-end and system development.</p>
                     <h2>Some of my other illustrations and designs:</h2>
                     <div className='aboutMe__illustrations'>
                         <a href="https://thorwurtzner.dk/static/16e917eb50baa80ae621bd1fca6299d8/1ed78/copenhagen.webp" target='_blank'>

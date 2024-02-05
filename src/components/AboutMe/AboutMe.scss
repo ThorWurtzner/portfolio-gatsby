@@ -107,7 +107,7 @@
 
                 // I don't know if this is genius or bootleg as hell.
                 border-bottom: 2px solid rgba(114, 131, 204, 0.295);
-                width: 120%;
+                width: 100%;
                 text-align: center;
                 padding-bottom: 8px;
             }
@@ -226,4 +226,14 @@
     .aboutMe__illustrations {
         grid-template-columns: none;
     }
+
+    .aboutMe__portraitWrapper__description {
+        h2 {
+            width: 90%;
+        }
+    }
+
+    // .aboutMe__content {
+    //     padding: 0;
+    // }
 }
